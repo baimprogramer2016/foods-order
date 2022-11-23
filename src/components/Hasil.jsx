@@ -19,7 +19,8 @@ class Hasil extends Component {
       totalHarga: 0,
     };
   }
-//yuhu
+  //yuhu
+  //bisa jadi
   handleShow = (menuKeranjang) => {
     this.setState({
       showModal: true,
