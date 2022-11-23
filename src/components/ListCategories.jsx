@@ -41,7 +41,7 @@ class ListCategories extends Component {
     const { changeCategory, categoriYangDipilih } = this.props;
 
     return (
-      <Col md={2} mt={2}>
+      <Col md={2} className="mt-2">
         <h5>
           <strong>Daftar Kategori</strong>
         </h5>

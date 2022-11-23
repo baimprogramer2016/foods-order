@@ -19,7 +19,34 @@ code {
     monospace;
 }
 
+.btn-primary {
+  background-color: #884ea0;
+}
+
 .category-active {
   background-color: #d7bde2;
   color: #fff;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-height: 600px) {
+  .hasil {
+    height: 500px;
+  }
+  .menu {
+    height: 800px;
+  }
+}
+@media only screen and (min-height: 800px) {
+  .hasil {
+    height: 600px;
+  }
+}
+@media only screen and (min-height: 300px) {
+  .hasil {
+    height: 450px;
+  }
 }
